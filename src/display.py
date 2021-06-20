@@ -11,7 +11,7 @@ import torch.nn.functional as F
 import os
 import matplotlib.cm as mpl_color_map
 import copy
-from misc_functions import *
+from utils.misc_functions import *
 
 
 class Display():
