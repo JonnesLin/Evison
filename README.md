@@ -1,2 +1,2 @@
 # easy_visualization
-We provide a easy way for visualizing
+We provide an easy way for visualizing
