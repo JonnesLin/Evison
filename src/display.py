@@ -19,14 +19,16 @@ class Display():
         layer_index: the index in the module
         '''
         # check is dataparallel mode or not
+        self.img_size = img_size
+        self.norm = norm
         if isinstance(model, nn.DataParallel):
             self.model = model.module
         else:
             self.model = model
         
-        if norm is None:
+        if self.norm is None:
             self.norm = ((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
-        if img_size is None:
+        if self.img_size is None:
             self.img_size = (224, 224)
         self.transform = T.Compose([
             T.Resize(self.img_size),
