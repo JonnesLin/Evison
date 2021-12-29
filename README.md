@@ -16,4 +16,4 @@ display = Display(network, visualized_layer, target_output=2, img_size=(224, 224
 ```
 
 # Contact
-Jones(Jinhong) Lin: jonneslin@gmail.com
+Jones(Jinhong) Lin: jonneslin@gmail.com / jlin398@wisc.edu
