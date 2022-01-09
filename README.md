@@ -15,5 +15,7 @@ You may specify which output you want to use for classification bythe argument t
 display = Display(network, visualized_layer, target_output=2, img_size=(224, 224)) # You may use the output of index 3 for classification.
 ```
 
+# Reference
+https://github.com/utkuozbulak/pytorch-cnn-visualizations
 # Contact
 Jones(Jinhong) Lin: jonneslin@gmail.com / jlin398@wisc.edu
